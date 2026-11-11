@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  NOT USED BY ANY TARGET. Reference only. See docs/DISTRIBUTION.md.
+
+  On jailbroken devices, a sandboxed app usually cannot start processes even when a shell is
+  installed; the Unleashed capability report then says so truthfully. Some installation methods
+  allow additional entitlements. Whether to sign the Unleashed build with any of these is the
+  device owner's decision. HCG Terminal never adds them automatically, and they are not valid for
+  App Store or TestFlight distribution.
+-->
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+</dict>
+</plist>
